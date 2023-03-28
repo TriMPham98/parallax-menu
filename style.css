@@ -38,7 +38,7 @@ body {
   width: 100vh;
 
   background-image: radial-gradient(
-    rgba(2255, 255, 255, 0.1) 9%, 
+    rgba(2255, 255, 255, 0.1) 9%,
     transparent 9%
   );
   background-position: 0% 0%;
@@ -48,4 +48,11 @@ body {
   left: 0px;
   top: 0px;
   z-index: 1;
+
+  transition: opacity 800ms ease, background-size 800ms ease;
+}
+
+#menu-items:hover ~ #menu-background-pattern {
+  background-size: 11vmin 11vmin;
+  opacity: 0.5;
 }
