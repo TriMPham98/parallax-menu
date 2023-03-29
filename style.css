@@ -31,7 +31,6 @@ body {
   list-style-type: none;
 }
 
-
 #menu[data-active-index="0"] > #menu-background-pattern {
   background-position: 0% -25%;
 }
@@ -121,6 +120,10 @@ body {
     background-position 800ms ease;
   width: 100%;
   z-index: 0;
+}
+
+body.business-plan #menu-background-image {
+  background-image: url("https://images.pexels.com/photos/4629624/pexels-photo-4629624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 
 #menu-items:hover ~ #menu-background-image {
