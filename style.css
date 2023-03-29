@@ -134,6 +134,10 @@ body.ethics-policy #menu-background-image {
   background-image: url("https://images.pexels.com/photos/4629623/pexels-photo-4629623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 
+body.experimentation-and-priorities #menu-background-image {
+  background-image: url("https://images.pexels.com/photos/4629622/pexels-photo-4629622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
 #menu-items:hover ~ #menu-background-image {
   background-size: 100vmax;
   opacity: 0.1;
