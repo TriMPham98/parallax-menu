@@ -15,6 +15,12 @@ body {
   z-index: 3;
 }
 
+#company-name a {
+  text-decoration: none;
+  color: white;
+}
+
+
 #menu {
   height: 100vh;
   display: flex;
