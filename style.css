@@ -15,7 +15,6 @@ body {
   z-index: 3;
 }
 
-
 #menu {
   height: 100vh;
   display: flex;
@@ -60,11 +59,11 @@ body {
   background-position: center 60%;
 }
 
-#menu-items:hover > .menu-item {
+#menu-items:hover > li > .menu-item {
   opacity: 0.3;
 }
 
-#menu-items:hover > .menu-item:hover {
+#menu-items:hover > li:hover > .menu-item {
   opacity: 1;
 }
 
@@ -109,12 +108,11 @@ body {
   background-position: center 40%;
   background-size: 110vmax;
   height: 100%;
-  left: 0px;  
+  left: 0px;
   opacity: 0.15;
   position: absolute;
   top: 0px;
-  transition: opacity 800ms ease,
-    background-size 800ms ease,
+  transition: opacity 800ms ease, background-size 800ms ease,
     background-position 800ms ease;
   width: 100%;
   z-index: 0;
@@ -122,5 +120,5 @@ body {
 
 #menu-items:hover ~ #menu-background-image {
   background-size: 100vmax;
-  opacity: 0.10;
+  opacity: 0.1;
 }
