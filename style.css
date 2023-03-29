@@ -3,6 +3,19 @@ body {
   margin: 0px;
 }
 
+#company-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Ibarra Real Nova", serif;
+  color: white;
+  z-index: 3;
+}
+
+
 #menu {
   height: 100vh;
   display: flex;
@@ -57,7 +70,7 @@ body {
 
 .menu-item {
   color: white;
-  font-size: clamp(3rem, 5vw, 5rem);
+  font-size: clamp(2rem, 4vw, 5rem);
   margin: 2rem 0;
   font-family: "Ibarra Real Nova", serif;
 
