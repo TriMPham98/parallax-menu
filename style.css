@@ -4,9 +4,12 @@
 }
 
 body {
+  height: 100%;
+  min-height: 100vh;
   background-color: rgb(20, 20, 20);
   margin: 0px;
   overflow-x: hidden; /* Add this line */
+  overflow-y: hidden;
 }
 
 .header-container {
