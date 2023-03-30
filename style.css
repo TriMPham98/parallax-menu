@@ -38,6 +38,7 @@ body {
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
   color: white;
   padding: 1rem;
+  z-index: 3;
 }
 
 /* Media query for smaller screen widths */
