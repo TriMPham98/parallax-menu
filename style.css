@@ -3,11 +3,16 @@ body {
   margin: 0px;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+}
+
 #company-name {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 2rem;
+  padding: 1rem;
   font-size: clamp(2.5rem, 3vw, 4rem);
   font-weight: bold;
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
@@ -18,6 +23,27 @@ body {
 #company-name a {
   text-decoration: none;
   color: white;
+}
+
+#group-name {
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  color: white;
+  padding: 1rem;
+}
+
+/* Media query for smaller screen widths */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+  }
+
+  #company-name {
+    text-align: center;
+  }
+
+  #group-name {
+    text-align: center;
+  }
 }
 
 #menu {
