@@ -1,6 +1,12 @@
+/* Add box-sizing property for all elements */
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(20, 20, 20);
   margin: 0px;
+  overflow-x: hidden; /* Add this line */
 }
 
 .header-container {
@@ -149,7 +155,7 @@ body {
   top: 0px;
   transition: opacity 800ms ease, background-size 800ms ease,
     background-position 800ms ease;
-  width: 100%;
+  width: 100vw;
   z-index: 0;
 }
 
