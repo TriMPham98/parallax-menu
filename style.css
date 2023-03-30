@@ -87,6 +87,14 @@ body {
   background-position: 0% -100%;
 }
 
+#menu[data-active-index="4"] > #menu-background-pattern {
+  background-position: 0% -125%;
+}
+
+#menu[data-active-index="5"] > #menu-background-pattern {
+  background-position: 0% -150%;
+}
+
 #menu[data-active-index="0"] > #menu-background-image {
   background-position: center 45%;
 }
@@ -101,6 +109,14 @@ body {
 
 #menu[data-active-index="3"] > #menu-background-image {
   background-position: center 60%;
+}
+
+#menu[data-active-index="4"] > #menu-background-image {
+  background-position: center 65%;
+}
+
+#menu[data-active-index="5"] > #menu-background-image {
+  background-position: center 70%;
 }
 
 #menu-items:hover > li > .menu-item {
