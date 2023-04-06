@@ -110,6 +110,15 @@ p {
   z-index: 2;
 }
 
+#menu-items-content {
+  /* margin-left: clamp(4rem, 20vw, 48rem); */ /* Remove this line */
+  position: relative;
+  z-index: 2;
+  display: flex; /* Add this line */
+  justify-content: center; /* Add this line */
+}
+
+
 #menu-items li {
   list-style-type: none;
 }
