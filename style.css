@@ -12,6 +12,24 @@ body {
   overflow-y: hidden;
 }
 
+h1 {
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: clamp(2rem, 3vw, 3.5rem);
+  font-weight: bold;
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+
 .header-container {
   display: flex;
   align-items: center;
