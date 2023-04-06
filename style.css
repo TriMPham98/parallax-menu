@@ -242,6 +242,10 @@ body.cultural-policy #menu-background-image {
   background-image: url("https://images.pexels.com/photos/4629624/pexels-photo-4629624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 
+body.core-values #menu-background-image {
+  background-image: url("https://images.pexels.com/photos/4629624/pexels-photo-4629624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
 body.ethics-policy #menu-background-image {
   background-image: url("https://images.pexels.com/photos/4629623/pexels-photo-4629623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
