@@ -12,6 +12,10 @@ body {
   overflow-y: hidden;
 }
 
+body.core-items {
+  overflow-y: auto;
+}
+
 h1 {
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
   font-size: clamp(2rem, 3vw, 3.5rem);
@@ -257,6 +261,11 @@ body.summary #menu-background-image {
 body.ethics-policy #menu-background-image {
   background-image: url("https://images.pexels.com/photos/4629623/pexels-photo-4629623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
+
+body.core-items #menu-background-image {
+  background-image: url("https://images.pexels.com/photos/4629623/pexels-photo-4629623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
 
 body.experimentation-and-priorities #menu-background-image {
   background-image: url("https://images.pexels.com/photos/4629622/pexels-photo-4629622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
