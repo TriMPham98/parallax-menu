@@ -12,9 +12,6 @@ body {
   overflow-y: hidden;
 }
 
-body.core-items {
-  overflow-y: auto;
-}
 
 h1 {
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
